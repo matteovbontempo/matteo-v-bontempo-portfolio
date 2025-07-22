@@ -444,29 +444,29 @@ img {
 /* Mobile portrait orientation */
 @media screen and (max-width: 480px) and (orientation: portrait) {
   .home {
-    flex-direction: column;
-    text-align: center;
-    padding: 2rem 0 3rem;
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 2rem 0 3rem !important;
   }
   .home__img {
-    width: 220px;
-    position: relative;
-    right: auto;
-    top: auto;
-    margin: 2rem auto 0;
-    height: auto;
-    overflow: visible;
+    width: 220px !important;
+    position: relative !important;
+    right: auto !important;
+    top: auto !important;
+    margin: 2rem auto 0 !important;
+    height: auto !important;
+    overflow: visible !important;
   }
   .home__title {
-    font-size: 1.8rem;
-    margin-right: 0;
-    margin-bottom: 1rem;
+    font-size: 1.8rem !important;
+    margin-right: 0 !important;
+    margin-bottom: 1rem !important;
   }
   .home__data {
-    order: 1;
+    order: 1 !important;
   }
   .home__img {
-    order: 2;
+    order: 2 !important;
   }
 }
 @media screen and (min-width: 576px) {
