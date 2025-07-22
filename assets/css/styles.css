@@ -183,24 +183,17 @@ img {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 3rem;
 }
 .home__data {
   align-self: center;
   z-index: 2;
   position: relative;
-  flex: 1;
-  max-width: 50%;
 }
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  margin-right: 280px;
   line-height: 1.2;
-  word-wrap: break-word;
 }
 .home__title-color {
   color: var(--first-color);
@@ -220,12 +213,13 @@ img {
   color: var(--first-color);
 }
 .home__img {
-  position: relative;
-  width: 300px;
+  position: absolute;
+  right: -50px;
+  bottom: 0;
+  width: 260px;
   height: auto;
   overflow: visible;
   z-index: 1;
-  flex-shrink: 0;
 }
 .home__blob {
   fill: var(--first-color);
@@ -418,19 +412,17 @@ img {
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {
-    flex-direction: column;
     row-gap: 2rem;
   }
-  .home__data {
-    max-width: 100%;
-  }
   .home__img {
-    width: 200px;
+    width: 180px;
+    right: -30px;
     height: auto;
     overflow: visible;
   }
   .home__title {
     font-size: 1.5rem;
+    margin-right: 200px;
   }
 }
 @media screen and (min-width: 576px) {
@@ -449,15 +441,12 @@ img {
   }
   .home__img {
     width: 300px;
+    right: -40px;
     height: auto;
     overflow: visible;
   }
-  .home {
-    flex-direction: column;
-    text-align: center;
-  }
-  .home__data {
-    max-width: 100%;
+  .home__title {
+    margin-right: 320px;
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
@@ -525,8 +514,12 @@ img {
   }
   .home__img {
     width: 350px;
+    right: -60px;
     height: auto;
     overflow: visible;
+  }
+  .home__title {
+    margin-right: 380px;
   }
   .about__container {
     padding-top: 2rem;
