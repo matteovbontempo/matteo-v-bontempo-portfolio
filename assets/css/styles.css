@@ -186,10 +186,13 @@ img {
 }
 .home__data {
   align-self: center;
+  z-index: 2;
+  position: relative;
 }
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  margin-right: 280px;
 }
 .home__title-color {
   color: var(--first-color);
@@ -211,9 +214,10 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  width: 240px;
   height: auto;
   overflow: visible;
+  z-index: 1;
 }
 .home__blob {
   fill: var(--first-color);
@@ -409,9 +413,12 @@ img {
     row-gap: 2rem;
   }
   .home__img {
-    width: 200px;
+    width: 180px;
     height: auto;
     overflow: visible;
+  }
+  .home__title {
+    margin-right: 200px;
   }
 }
 @media screen and (min-width: 576px) {
@@ -429,10 +436,13 @@ img {
     margin-right: var(--mb-4);
   }
   .home__img {
-    width: 300px;
+    width: 280px;
     height: auto;
     bottom: 25%;
     overflow: visible;
+  }
+  .home__title {
+    margin-right: 300px;
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
@@ -499,10 +509,13 @@ img {
     padding: 8rem 0 2rem;
   }
   .home__img {
-    width: 400px;
+    width: 350px;
     height: auto;
     bottom: 10%;
     overflow: visible;
+  }
+  .home__title {
+    margin-right: 380px;
   }
   .about__container {
     padding-top: 2rem;
