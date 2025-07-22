@@ -215,7 +215,7 @@ img {
 .home__img {
   position: absolute;
   right: -60px;
-  top: 20px;
+  top: 40px;
   width: 260px;
   height: auto;
   overflow: visible;
@@ -417,7 +417,7 @@ img {
   .home__img {
     width: 180px;
     right: -20px;
-    top: 20px;
+    top: 30px;
     height: auto;
     overflow: visible;
   }
@@ -443,7 +443,7 @@ img {
   .home__img {
     width: 300px;
     right: -30px;
-    top: 30px;
+    top: 50px;
     height: auto;
     overflow: visible;
   }
@@ -517,7 +517,7 @@ img {
   .home__img {
     width: 350px;
     right: -40px;
-    top: 40px;
+    top: 60px;
     height: auto;
     overflow: visible;
   }
