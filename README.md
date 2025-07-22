@@ -1,14 +1,49 @@
-# Portfolio Responsive Complete
-## [Watch it on youtube](https://youtu.be/AKNvTxWOdKw)
-### Portfolio Responsive Complete
+# Matteo Vito Bontempo - Portfolio
 
-- Responsive Personal Portfolio Website HTML CSS & JavaScript.
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+Personal portfolio website showcasing my work as a Computer Science & Accounting Student.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+## 🚀 Live Demo
+[View Portfolio](https://matteovbontempo.github.io/matteo-v-bontempo-portfolio/)
 
-![preview img](/preview.png)
+## 📋 About Me
+- **Name:** Matteo Vito Bontempo
+- **Role:** Computer Science & Accounting Student
+- **Location:** Argentina
+- **Graduation:** December 2025
+
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- React
+- Node.js
+- Python
+
+## 📞 Contact
+- **Email:** matteovbontempo@gmail.com
+- **LinkedIn:** [matteo-bontempo](https://www.linkedin.com/in/matteo-bontempo-/)
+- **GitHub:** [matteovbontempo](https://github.com/matteovbontempo)
+- **Instagram:** [vito.bontempo](https://www.instagram.com/vito.bontempo/)
+
+## 📁 Project Structure
+```
+portfolio/
+├── index.html
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── img/
+└── README.md
+```
+
+## 🎯 Features
+- Responsive design
+- Modern UI/UX
+- Contact form
+- Project showcase
+- Skills section
+- Professional experience
+
+---
+© 2025 Matteo Vito Bontempo. All rights reserved.
 
