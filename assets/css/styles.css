@@ -201,11 +201,12 @@ img {
 }
 .home__social {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 1rem;
 }
 .home__social-icon {
   width: max-content;
-  margin-bottom: var(--mb-2);
+  margin-bottom: 0;
   font-size: 1.5rem;
   color: var(--second-color);
 }
@@ -425,6 +426,14 @@ img {
     font-size: 1.5rem;
     margin-right: 180px;
   }
+  .home__social {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .home__social-icon {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
 }
 
 /* Mobile portrait - keep horizontal layout but adjust spacing */
@@ -438,6 +447,14 @@ img {
     font-size: 1.6rem;
     margin-right: 200px;
   }
+  .home__social {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .home__social-icon {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
 }
 @media screen and (min-width: 576px) {
   .home {
@@ -448,10 +465,11 @@ img {
     padding-bottom: 2.5rem;
     flex-direction: row;
     align-self: flex-end;
+    gap: 1rem;
   }
   .home__social-icon {
     margin-bottom: 0;
-    margin-right: var(--mb-4);
+    margin-right: 0;
   }
   .home__img {
     width: 300px;
